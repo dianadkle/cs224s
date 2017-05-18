@@ -109,5 +109,3 @@ for i in xrange(len(test)):
 print pred
 verifyAccuracy(pred, actual)
 
-
-
