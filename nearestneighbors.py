@@ -36,19 +36,7 @@ def fillXY(data, label):
 	i = 0
 	for sample, features in data.items():
 		if i == 100: break
-		if i <80:
-			x.append(features)
-			if label == 'AR':
-				y.append(0)
-			elif label == 'CA':
-				y.append(1)
-			elif label == 'FR':
-				y.append(2)
-			elif label == 'JA':
-				y.append(3)
-			else:
-				y.append(4)
-		else:
+		if i > 20 and i < 41:
 			test.append(features)
 			if label == 'AR':
 				actual.append(0)
@@ -60,6 +48,42 @@ def fillXY(data, label):
 				actual.append(3)
 			else:
 				actual.append(4)
+		else:
+			x.append(features)
+			if label == 'AR':
+				y.append(0)
+			elif label == 'CA':
+				y.append(1)
+			elif label == 'FR':
+				y.append(2)
+			elif label == 'JA':
+				y.append(3)
+			else:
+				y.append(4)
+		# if i <80:
+		# 	x.append(features)
+		# 	if label == 'AR':
+		# 		y.append(0)
+		# 	elif label == 'CA':
+		# 		y.append(1)
+		# 	elif label == 'FR':
+		# 		y.append(2)
+		# 	elif label == 'JA':
+		# 		y.append(3)
+		# 	else:
+		# 		y.append(4)
+		# else:
+		# 	test.append(features)
+		# 	if label == 'AR':
+		# 		actual.append(0)
+		# 	elif label == 'CA':
+		# 		actual.append(1)
+		# 	elif label == 'FR':
+		# 		actual.append(2)
+		# 	elif label == 'JA':
+		# 		actual.append(3)
+		# 	else:
+		# 		actual.append(4)
 		i+=1
 
 def knn_search(x, D, K):
@@ -100,8 +124,6 @@ fillXY(sp, 'SP')
 
 print "Filled the training, labels, pred, and actual"
 
-# neigh = KNeighborsClassifier(n_neighbors=5)
-# neigh.fit(x, y) 
 print len(test)
 for i in xrange(len(test)):
 	p = knn_search(test[i], x, 1)
