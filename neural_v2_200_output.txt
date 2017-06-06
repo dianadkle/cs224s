@@ -1,0 +1,1251 @@
+Loaded all data
+train_count for  TA = 200 dev_count= 50 test_count= 50
+bad mfcc: y = GE sample= 161 shape = 173
+train_count for  GE = 200 dev_count= 50 test_count= 50
+train_count for  BP = 200 dev_count= 50 test_count= 50
+train_count for  HI = 200 dev_count= 50 test_count= 50
+train_count for  SP = 200 dev_count= 50 test_count= 50
+y= 1000 actual= 250 realactual= 250
+hidden_layer_sizes = (100, 100, 100)
+random_state= 103
+learning_rate_init= 0.0001
+max_iter= 1000
+early_stopping= False
+validation_fraction= 0
+solver= adam
+alpha = 0.0001
+/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/scipy/sparse/compressed.py:130: VisibleDeprecationWarning: `rank` is deprecated; use the `ndim` attribute or function instead. To find the rank of a matrix see `numpy.linalg.matrix_rank`.
+  if np.rank(self.data) != 1 or np.rank(self.indices) != 1 or np.rank(self.indptr) != 1:
+/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/scipy/sparse/coo.py:200: VisibleDeprecationWarning: `rank` is deprecated; use the `ndim` attribute or function instead. To find the rank of a matrix see `numpy.linalg.matrix_rank`.
+  if np.rank(self.data) != 1 or np.rank(self.row) != 1 or np.rank(self.col) != 1:
+train   SCORE IS: 1.0
+test  SCORE IS: 0.268
+realtest  SCORE IS: 0.372
+---Hyperparameter training  (use training  to train and get test accuracy
+hidden layer =  100
+learning_rate_init =  0.01
+alpha =  0.1
+test  SCORE IS: 0.208
+----------
+hidden layer =  100
+learning_rate_init =  0.01
+alpha =  0.05
+test  SCORE IS: 0.204
+----------
+hidden layer =  100
+learning_rate_init =  0.01
+alpha =  0.01
+test  SCORE IS: 0.196
+----------
+hidden layer =  100
+learning_rate_init =  0.01
+alpha =  0.005
+test  SCORE IS: 0.208
+----------
+hidden layer =  100
+learning_rate_init =  0.01
+alpha =  0.001
+test  SCORE IS: 0.2
+----------
+hidden layer =  100
+learning_rate_init =  0.01
+alpha =  0.0005
+test  SCORE IS: 0.2
+----------
+hidden layer =  100
+learning_rate_init =  0.01
+alpha =  0.0001
+test  SCORE IS: 0.2
+----------
+hidden layer =  100
+learning_rate_init =  0.005
+alpha =  0.1
+test  SCORE IS: 0.196
+----------
+hidden layer =  100
+learning_rate_init =  0.005
+alpha =  0.05
+test  SCORE IS: 0.2
+----------
+hidden layer =  100
+learning_rate_init =  0.005
+alpha =  0.01
+test  SCORE IS: 0.204
+----------
+hidden layer =  100
+learning_rate_init =  0.005
+alpha =  0.005
+test  SCORE IS: 0.204
+----------
+hidden layer =  100
+learning_rate_init =  0.005
+alpha =  0.001
+test  SCORE IS: 0.196
+----------
+hidden layer =  100
+learning_rate_init =  0.005
+alpha =  0.0005
+test  SCORE IS: 0.196
+----------
+hidden layer =  100
+learning_rate_init =  0.005
+alpha =  0.0001
+test  SCORE IS: 0.196
+----------
+hidden layer =  100
+learning_rate_init =  0.001
+alpha =  0.1
+test  SCORE IS: 0.212
+----------
+hidden layer =  100
+learning_rate_init =  0.001
+alpha =  0.05
+test  SCORE IS: 0.24
+----------
+hidden layer =  100
+learning_rate_init =  0.001
+alpha =  0.01
+test  SCORE IS: 0.224
+----------
+hidden layer =  100
+learning_rate_init =  0.001
+alpha =  0.005
+test  SCORE IS: 0.24
+----------
+hidden layer =  100
+learning_rate_init =  0.001
+alpha =  0.001
+test  SCORE IS: 0.2
+----------
+hidden layer =  100
+learning_rate_init =  0.001
+alpha =  0.0005
+test  SCORE IS: 0.22
+----------
+hidden layer =  100
+learning_rate_init =  0.001
+alpha =  0.0001
+test  SCORE IS: 0.216
+----------
+hidden layer =  100
+learning_rate_init =  0.0005
+alpha =  0.1
+test  SCORE IS: 0.216
+----------
+hidden layer =  100
+learning_rate_init =  0.0005
+alpha =  0.05
+test  SCORE IS: 0.22
+----------
+hidden layer =  100
+learning_rate_init =  0.0005
+alpha =  0.01
+test  SCORE IS: 0.212
+----------
+hidden layer =  100
+learning_rate_init =  0.0005
+alpha =  0.005
+test  SCORE IS: 0.236
+----------
+hidden layer =  100
+learning_rate_init =  0.0005
+alpha =  0.001
+test  SCORE IS: 0.208
+----------
+hidden layer =  100
+learning_rate_init =  0.0005
+alpha =  0.0005
+test  SCORE IS: 0.212
+----------
+hidden layer =  100
+learning_rate_init =  0.0005
+alpha =  0.0001
+test  SCORE IS: 0.208
+----------
+hidden layer =  100
+learning_rate_init =  0.0001
+alpha =  0.1
+test  SCORE IS: 0.232
+----------
+hidden layer =  100
+learning_rate_init =  0.0001
+alpha =  0.05
+test  SCORE IS: 0.232
+----------
+hidden layer =  100
+learning_rate_init =  0.0001
+alpha =  0.01
+test  SCORE IS: 0.232
+----------
+hidden layer =  100
+learning_rate_init =  0.0001
+alpha =  0.005
+test  SCORE IS: 0.228
+----------
+hidden layer =  100
+learning_rate_init =  0.0001
+alpha =  0.001
+test  SCORE IS: 0.228
+----------
+hidden layer =  100
+learning_rate_init =  0.0001
+alpha =  0.0005
+test  SCORE IS: 0.228
+----------
+hidden layer =  100
+learning_rate_init =  0.0001
+alpha =  0.0001
+test  SCORE IS: 0.228
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.01
+alpha =  0.1
+test  SCORE IS: 0.188
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.01
+alpha =  0.05
+test  SCORE IS: 0.2
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.01
+alpha =  0.01
+test  SCORE IS: 0.26
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.01
+alpha =  0.005
+test  SCORE IS: 0.236
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.01
+alpha =  0.001
+test  SCORE IS: 0.2
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.01
+alpha =  0.0005
+test  SCORE IS: 0.2
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.01
+alpha =  0.0001
+test  SCORE IS: 0.2
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.005
+alpha =  0.1
+test  SCORE IS: 0.22
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.005
+alpha =  0.05
+test  SCORE IS: 0.196
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.005
+alpha =  0.01
+test  SCORE IS: 0.208
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.005
+alpha =  0.005
+test  SCORE IS: 0.232
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.005
+alpha =  0.001
+test  SCORE IS: 0.232
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.005
+alpha =  0.0005
+test  SCORE IS: 0.228
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.005
+alpha =  0.0001
+test  SCORE IS: 0.232
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.001
+alpha =  0.1
+test  SCORE IS: 0.224
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.001
+alpha =  0.05
+test  SCORE IS: 0.216
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.001
+alpha =  0.01
+test  SCORE IS: 0.232
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.001
+alpha =  0.005
+test  SCORE IS: 0.22
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.001
+alpha =  0.001
+test  SCORE IS: 0.24
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.001
+alpha =  0.0005
+test  SCORE IS: 0.244
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.001
+alpha =  0.0001
+test  SCORE IS: 0.22
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.0005
+alpha =  0.1
+test  SCORE IS: 0.244
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.0005
+alpha =  0.05
+test  SCORE IS: 0.256
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.0005
+alpha =  0.01
+test  SCORE IS: 0.256
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.0005
+alpha =  0.005
+test  SCORE IS: 0.248
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.0005
+alpha =  0.001
+test  SCORE IS: 0.252
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.0005
+alpha =  0.0005
+test  SCORE IS: 0.252
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.0005
+alpha =  0.0001
+test  SCORE IS: 0.252
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.0001
+alpha =  0.1
+test  SCORE IS: 0.252
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.0001
+alpha =  0.05
+test  SCORE IS: 0.236
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.0001
+alpha =  0.01
+test  SCORE IS: 0.232
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.0001
+alpha =  0.005
+test  SCORE IS: 0.232
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.0001
+alpha =  0.001
+test  SCORE IS: 0.252
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.0001
+alpha =  0.0005
+test  SCORE IS: 0.252
+----------
+hidden layer =  (100, 100)
+learning_rate_init =  0.0001
+alpha =  0.0001
+test  SCORE IS: 0.24
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.01
+alpha =  0.1
+test  SCORE IS: 0.228
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.01
+alpha =  0.05
+test  SCORE IS: 0.216
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.01
+alpha =  0.01
+test  SCORE IS: 0.244
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.01
+alpha =  0.005
+test  SCORE IS: 0.208
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.01
+alpha =  0.001
+test  SCORE IS: 0.264
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.01
+alpha =  0.0005
+test  SCORE IS: 0.228
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.01
+alpha =  0.0001
+test  SCORE IS: 0.176
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.005
+alpha =  0.1
+test  SCORE IS: 0.052
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.005
+alpha =  0.05
+test  SCORE IS: 0.196
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.005
+alpha =  0.01
+test  SCORE IS: 0.208
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.005
+alpha =  0.005
+test  SCORE IS: 0.204
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.005
+alpha =  0.001
+test  SCORE IS: 0.208
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.005
+alpha =  0.0005
+test  SCORE IS: 0.212
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.005
+alpha =  0.0001
+test  SCORE IS: 0.196
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.001
+alpha =  0.1
+test  SCORE IS: 0.22
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.001
+alpha =  0.05
+test  SCORE IS: 0.228
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.001
+alpha =  0.01
+test  SCORE IS: 0.22
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.001
+alpha =  0.005
+test  SCORE IS: 0.212
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.001
+alpha =  0.001
+test  SCORE IS: 0.204
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.001
+alpha =  0.0005
+test  SCORE IS: 0.224
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.001
+alpha =  0.0001
+test  SCORE IS: 0.236
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.0005
+alpha =  0.1
+test  SCORE IS: 0.212
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.0005
+alpha =  0.05
+test  SCORE IS: 0.192
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.0005
+alpha =  0.01
+test  SCORE IS: 0.204
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.0005
+alpha =  0.005
+test  SCORE IS: 0.176
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.0005
+alpha =  0.001
+test  SCORE IS: 0.204
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.0005
+alpha =  0.0005
+test  SCORE IS: 0.18
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.0005
+alpha =  0.0001
+test  SCORE IS: 0.184
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.0001
+alpha =  0.1
+test  SCORE IS: 0.288
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.0001
+alpha =  0.05
+test  SCORE IS: 0.28
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.0001
+alpha =  0.01
+test  SCORE IS: 0.276
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.0001
+alpha =  0.005
+test  SCORE IS: 0.268
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.0001
+alpha =  0.001
+test  SCORE IS: 0.264
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.0001
+alpha =  0.0005
+test  SCORE IS: 0.264
+----------
+hidden layer =  (100, 100, 100)
+learning_rate_init =  0.0001
+alpha =  0.0001
+test  SCORE IS: 0.268
+----------
+hidden layer =  256
+learning_rate_init =  0.01
+alpha =  0.1
+test  SCORE IS: 0.196
+----------
+hidden layer =  256
+learning_rate_init =  0.01
+alpha =  0.05
+test  SCORE IS: 0.196
+----------
+hidden layer =  256
+learning_rate_init =  0.01
+alpha =  0.01
+test  SCORE IS: 0.196
+----------
+hidden layer =  256
+learning_rate_init =  0.01
+alpha =  0.005
+test  SCORE IS: 0.196
+----------
+hidden layer =  256
+learning_rate_init =  0.01
+alpha =  0.001
+test  SCORE IS: 0.196
+----------
+hidden layer =  256
+learning_rate_init =  0.01
+alpha =  0.0005
+test  SCORE IS: 0.196
+----------
+hidden layer =  256
+learning_rate_init =  0.01
+alpha =  0.0001
+test  SCORE IS: 0.196
+----------
+hidden layer =  256
+learning_rate_init =  0.005
+alpha =  0.1
+test  SCORE IS: 0.204
+----------
+hidden layer =  256
+learning_rate_init =  0.005
+alpha =  0.05
+test  SCORE IS: 0.164
+----------
+hidden layer =  256
+learning_rate_init =  0.005
+alpha =  0.01
+test  SCORE IS: 0.16
+----------
+hidden layer =  256
+learning_rate_init =  0.005
+alpha =  0.005
+test  SCORE IS: 0.204
+----------
+hidden layer =  256
+learning_rate_init =  0.005
+alpha =  0.001
+test  SCORE IS: 0.164
+----------
+hidden layer =  256
+learning_rate_init =  0.005
+alpha =  0.0005
+test  SCORE IS: 0.228
+----------
+hidden layer =  256
+learning_rate_init =  0.005
+alpha =  0.0001
+test  SCORE IS: 0.228
+----------
+hidden layer =  256
+learning_rate_init =  0.001
+alpha =  0.1
+test  SCORE IS: 0.164
+----------
+hidden layer =  256
+learning_rate_init =  0.001
+alpha =  0.05
+test  SCORE IS: 0.176
+----------
+hidden layer =  256
+learning_rate_init =  0.001
+alpha =  0.01
+test  SCORE IS: 0.228
+----------
+hidden layer =  256
+learning_rate_init =  0.001
+alpha =  0.005
+test  SCORE IS: 0.208
+----------
+hidden layer =  256
+learning_rate_init =  0.001
+alpha =  0.001
+test  SCORE IS: 0.188
+----------
+hidden layer =  256
+learning_rate_init =  0.001
+alpha =  0.0005
+test  SCORE IS: 0.172
+----------
+hidden layer =  256
+learning_rate_init =  0.001
+alpha =  0.0001
+test  SCORE IS: 0.208
+----------
+hidden layer =  256
+learning_rate_init =  0.0005
+alpha =  0.1
+test  SCORE IS: 0.204
+----------
+hidden layer =  256
+learning_rate_init =  0.0005
+alpha =  0.05
+test  SCORE IS: 0.236
+----------
+hidden layer =  256
+learning_rate_init =  0.0005
+alpha =  0.01
+test  SCORE IS: 0.244
+----------
+hidden layer =  256
+learning_rate_init =  0.0005
+alpha =  0.005
+test  SCORE IS: 0.232
+----------
+hidden layer =  256
+learning_rate_init =  0.0005
+alpha =  0.001
+test  SCORE IS: 0.236
+----------
+hidden layer =  256
+learning_rate_init =  0.0005
+alpha =  0.0005
+test  SCORE IS: 0.28
+----------
+hidden layer =  256
+learning_rate_init =  0.0005
+alpha =  0.0001
+test  SCORE IS: 0.24
+----------
+hidden layer =  256
+learning_rate_init =  0.0001
+alpha =  0.1
+test  SCORE IS: 0.24
+----------
+hidden layer =  256
+learning_rate_init =  0.0001
+alpha =  0.05
+test  SCORE IS: 0.244
+----------
+hidden layer =  256
+learning_rate_init =  0.0001
+alpha =  0.01
+test  SCORE IS: 0.244
+----------
+hidden layer =  256
+learning_rate_init =  0.0001
+alpha =  0.005
+test  SCORE IS: 0.244
+----------
+hidden layer =  256
+learning_rate_init =  0.0001
+alpha =  0.001
+test  SCORE IS: 0.244
+----------
+hidden layer =  256
+learning_rate_init =  0.0001
+alpha =  0.0005
+test  SCORE IS: 0.244
+----------
+hidden layer =  256
+learning_rate_init =  0.0001
+alpha =  0.0001
+test  SCORE IS: 0.244
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.01
+alpha =  0.1
+test  SCORE IS: 0.188
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.01
+alpha =  0.05
+test  SCORE IS: 0.192
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.01
+alpha =  0.01
+test  SCORE IS: 0.196
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.01
+alpha =  0.005
+test  SCORE IS: 0.2
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.01
+alpha =  0.001
+test  SCORE IS: 0.188
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.01
+alpha =  0.0005
+test  SCORE IS: 0.196
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.01
+alpha =  0.0001
+test  SCORE IS: 0.196
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.005
+alpha =  0.1
+test  SCORE IS: 0.2
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.005
+alpha =  0.05
+test  SCORE IS: 0.184
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.005
+alpha =  0.01
+test  SCORE IS: 0.22
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.005
+alpha =  0.005
+test  SCORE IS: 0.244
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.005
+alpha =  0.001
+test  SCORE IS: 0.22
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.005
+alpha =  0.0005
+test  SCORE IS: 0.188
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.005
+alpha =  0.0001
+test  SCORE IS: 0.248
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.001
+alpha =  0.1
+test  SCORE IS: 0.212
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.001
+alpha =  0.05
+test  SCORE IS: 0.196
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.001
+alpha =  0.01
+test  SCORE IS: 0.228
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.001
+alpha =  0.005
+test  SCORE IS: 0.2
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.001
+alpha =  0.001
+test  SCORE IS: 0.196
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.001
+alpha =  0.0005
+test  SCORE IS: 0.192
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.001
+alpha =  0.0001
+test  SCORE IS: 0.184
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.0005
+alpha =  0.1
+test  SCORE IS: 0.228
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.0005
+alpha =  0.05
+test  SCORE IS: 0.216
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.0005
+alpha =  0.01
+test  SCORE IS: 0.212
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.0005
+alpha =  0.005
+test  SCORE IS: 0.236
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.0005
+alpha =  0.001
+test  SCORE IS: 0.232
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.0005
+alpha =  0.0005
+test  SCORE IS: 0.224
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.0005
+alpha =  0.0001
+test  SCORE IS: 0.248
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.0001
+alpha =  0.1
+test  SCORE IS: 0.236
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.0001
+alpha =  0.05
+test  SCORE IS: 0.244
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.0001
+alpha =  0.01
+test  SCORE IS: 0.232
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.0001
+alpha =  0.005
+test  SCORE IS: 0.248
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.0001
+alpha =  0.001
+test  SCORE IS: 0.236
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.0001
+alpha =  0.0005
+test  SCORE IS: 0.224
+----------
+hidden layer =  (256, 256)
+learning_rate_init =  0.0001
+alpha =  0.0001
+test  SCORE IS: 0.236
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.01
+alpha =  0.1
+test  SCORE IS: 0.24
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.01
+alpha =  0.05
+test  SCORE IS: 0.204
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.01
+alpha =  0.01
+test  SCORE IS: 0.26
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.01
+alpha =  0.005
+test  SCORE IS: 0.292
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.01
+alpha =  0.001
+test  SCORE IS: 0.228
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.01
+alpha =  0.0005
+test  SCORE IS: 0.208
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.01
+alpha =  0.0001
+test  SCORE IS: 0.232
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.005
+alpha =  0.1
+test  SCORE IS: 0.3
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.005
+alpha =  0.05
+test  SCORE IS: 0.2
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.005
+alpha =  0.01
+test  SCORE IS: 0.236
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.005
+alpha =  0.005
+test  SCORE IS: 0.228
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.005
+alpha =  0.001
+test  SCORE IS: 0.228
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.005
+alpha =  0.0005
+test  SCORE IS: 0.24
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.005
+alpha =  0.0001
+test  SCORE IS: 0.22
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.001
+alpha =  0.1
+test  SCORE IS: 0.2
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.001
+alpha =  0.05
+test  SCORE IS: 0.196
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.001
+alpha =  0.01
+test  SCORE IS: 0.224
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.001
+alpha =  0.005
+test  SCORE IS: 0.232
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.001
+alpha =  0.001
+test  SCORE IS: 0.24
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.001
+alpha =  0.0005
+test  SCORE IS: 0.244
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.001
+alpha =  0.0001
+test  SCORE IS: 0.228
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.0005
+alpha =  0.1
+test  SCORE IS: 0.212
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.0005
+alpha =  0.05
+test  SCORE IS: 0.276
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.0005
+alpha =  0.01
+test  SCORE IS: 0.268
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.0005
+alpha =  0.005
+test  SCORE IS: 0.284
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.0005
+alpha =  0.001
+test  SCORE IS: 0.284
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.0005
+alpha =  0.0005
+test  SCORE IS: 0.272
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.0005
+alpha =  0.0001
+test  SCORE IS: 0.264
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.0001
+alpha =  0.1
+/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sklearn/neural_network/multilayer_perceptron.py:563: ConvergenceWarning: Stochastic Optimizer: Maximum iterations reached and the optimization hasn't converged yet.
+  % (), ConvergenceWarning)
+test  SCORE IS: 0.26
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.0001
+alpha =  0.05
+test  SCORE IS: 0.264
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.0001
+alpha =  0.01
+test  SCORE IS: 0.26
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.0001
+alpha =  0.005
+test  SCORE IS: 0.26
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.0001
+alpha =  0.001
+test  SCORE IS: 0.252
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.0001
+alpha =  0.0005
+test  SCORE IS: 0.248
+----------
+hidden layer =  (256, 256, 256)
+learning_rate_init =  0.0001
+alpha =  0.0001
+test  SCORE IS: 0.24
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.01
+alpha =  0.1
+test  SCORE IS: 0.268
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.01
+alpha =  0.05
+test  SCORE IS: 0.28
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.01
+alpha =  0.01
+test  SCORE IS: 0.244
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.01
+alpha =  0.005
+test  SCORE IS: 0.22
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.01
+alpha =  0.001
+test  SCORE IS: 0.3
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.01
+alpha =  0.0005
+test  SCORE IS: 0.228
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.01
+alpha =  0.0001
+test  SCORE IS: 0.256
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.005
+alpha =  0.1
+test  SCORE IS: 0.224
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.005
+alpha =  0.05
+test  SCORE IS: 0.184
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.005
+alpha =  0.01
+test  SCORE IS: 0.244
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.005
+alpha =  0.005
+test  SCORE IS: 0.232
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.005
+alpha =  0.001
+test  SCORE IS: 0.228
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.005
+alpha =  0.0005
+test  SCORE IS: 0.212
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.005
+alpha =  0.0001
+test  SCORE IS: 0.212
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.001
+alpha =  0.1
+test  SCORE IS: 0.208
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.001
+alpha =  0.05
+test  SCORE IS: 0.224
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.001
+alpha =  0.01
+test  SCORE IS: 0.224
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.001
+alpha =  0.005
+test  SCORE IS: 0.196
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.001
+alpha =  0.001
+test  SCORE IS: 0.212
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.001
+alpha =  0.0005
+test  SCORE IS: 0.216
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.001
+alpha =  0.0001
+test  SCORE IS: 0.232
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.0005
+alpha =  0.1
+test  SCORE IS: 0.212
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.0005
+alpha =  0.05
+test  SCORE IS: 0.196
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.0005
+alpha =  0.01
+test  SCORE IS: 0.208
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.0005
+alpha =  0.005
+test  SCORE IS: 0.228
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.0005
+alpha =  0.001
+test  SCORE IS: 0.268
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.0005
+alpha =  0.0005
+test  SCORE IS: 0.24
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.0005
+alpha =  0.0001
+test  SCORE IS: 0.244
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.0001
+alpha =  0.1
+test  SCORE IS: 0.232
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.0001
+alpha =  0.05
+test  SCORE IS: 0.208
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.0001
+alpha =  0.01
+test  SCORE IS: 0.2
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.0001
+alpha =  0.005
+test  SCORE IS: 0.16
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.0001
+alpha =  0.001
+test  SCORE IS: 0.2
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.0001
+alpha =  0.0005
+test  SCORE IS: 0.2
+----------
+hidden layer =  (256, 256, 256, 100)
+learning_rate_init =  0.0001
+alpha =  0.0001
+test  SCORE IS: 0.204
+----------
